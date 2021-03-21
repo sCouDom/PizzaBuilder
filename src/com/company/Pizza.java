@@ -27,6 +27,21 @@ public class Pizza {
         this.champiñones = champiñones;
     }
 
+    public Pizza(){
+        this.masa=null;
+        this.relleno=false;
+        this.tipo=1;
+        this.champiñones=false;
+        this.salsa=false;
+        this.tipoSalsa=null;
+        this.cebolla=false;
+        this.gluten=false;
+        this.extraQueso=false;
+        this.piña=false;
+        this.jamon=false;
+        this.champiñones=false;
+    }
+
     public String getMasa() {
         return masa;
     }
